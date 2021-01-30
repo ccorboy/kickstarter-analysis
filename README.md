@@ -29,12 +29,12 @@ The most difficult part of this challenge is maintaining focus while using the =
 ### Outcomes Based on Launch Day
 According to the data, Louise would give her project the best chance of being successful if she launches it during the months of May through July. Most successful plays are launched in this late spring/early summer period. May is the month with the most amount of successful plays, reaching 111 projects. June has 100 successful prjects and July has 87. It can be concluded that Louise would best benefit from launching project during the month of May. 
 
-![image](Kickstarter/Theater_Outcomes_vs_Launch.png) 
+![image](resources/Theater_Outcomes_vs_Launch.png) 
 
 ### Outcomes Based on Goals
 There are two financial ranges that would suggest higher success rates for plays in the 'Kickstarter' data. The first range includes plays that had lower financial goals. Plays that hope to fund their projects for less than $5,000 have around a 75% chance of being successful. The next highest range is for prijects that hope to fund their projects for $35,000 to $40,000. Their success rate was around 67%. From the data analysed, Louise would have a successful project with a funding goal of under $5,000. 
 
-![image](Kickstarter/Outcomes_vs_Goals.png) 
+![image](resources/Outcomes_vs_Goals.png) 
 
 ### Limitations
 There is more data available in the original 'Kickstarter' data set which could be used to draw more conclusions for Louise's project. Louise is hopeful that her play is successful in the United States, however she is also a big fan of British theater. There is sufficient data that is unused in this analysis which could give her an idea of the success rate in specifics locations. 
