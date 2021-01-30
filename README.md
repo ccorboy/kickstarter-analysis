@@ -15,9 +15,13 @@ This analysis is executed through Microsoft Excel. With the use of pivot tables 
 ### Analysis of Outcomes Based on Launch Day 
 The first step in preparing an 'Outcomes Based on Launch Day' chart is converting data from the 'launched_at' column and placing it in a new column labeled 'Years'. The function =YEARS() was used to convert the data in column S 'Date Created Conversion'.  Once the data is listed in its new column a pivot table is formed in  a new sheet. The pivot table is then filtered based on the Parent Category, in this case 'theater', and the new 'Years' column. The legend/column section of the pivot table contains data from the 'outcomes' field, while the axis/rows sections holds data from the 'Data Created Conversion'. The values section is also based on the 'outcomes' field. Below is an image of the pivot table that is created for the 'Outcomes Based on Launch Day' sheet. A line chart is used to visualize the data from the pivot table. 
 
+![image](Analysis/Theatre_Outcomes_vs_Launch.png) 
+
 
 ### Analysis of Outcomes Based on Goals
 A new sheet is made  that will assist in the visualization of data for 'Outcomes Based on Goals'. The first column in the new sheet focuses on dollar-amount ranges in order to separate projects based on their goal amount. The following three columns are 'Number Successful', 'Number Failed' and 'Number Canceled'. These three columns represent the outcome of each project based on their financial goals. The fifth column is the total amount of projects per a specific financial range. The final three columns in the new 'Outcomes Based on Goals' sheet represent the percentage of projects that were successful, failed, or were canceled. The function =COUNTIFS() is used to convert data in the 'Kickstarter' sheet from three different columns. Those columns are 'outcome', 'goal' and 'Subcategory' (filtered to display 'plays'). The =SUM function is sused to count the total projects per financial range. Attached is an image of the 'Outcomes Based on Goals' sheet. A line chart is used to display the data with the financial range on the x-axis and percent on the y-axis. 
+
+![image](Analysis/Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
